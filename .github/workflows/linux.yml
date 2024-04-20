@@ -37,7 +37,7 @@ jobs:
           tar -czf release.tar.gz ./build/
 
       - uses: actions/upload-artifact@v4
-        with:
-        name: artifact
-        path: release.tar.gz
-        compression-level: 9 # maximum compression
+        with: 
+          name: artifact
+          path: release.tar.gz
+          compression-level: 9 # maximum compression
